@@ -61,7 +61,7 @@
 					text-decoration: none;
 					width: 100%;
 					text-align: left;
-					color:#00FF99;
+					color:#4eeae4;
 					margin-right: 0%;
 					margin-top: 0px;
 					font-size: 2vmin;
@@ -74,10 +74,10 @@
 					left: calc(50% - 450px);
 					height: 72px;
 					width: 900px;
-					border-top: 4px solid #00FF99;
-					border-bottom: 4px solid #00FF99;
-					border-left: 4px solid #00FF99;
-					border-right: 4px solid #00FF99;
+					border-top: 4px solid #4eeae4;
+					border-bottom: 4px solid #4eeae4;
+					border-left: 4px solid #4eeae4;
+					border-right: 4px solid #4eeae4;
 					padding: 4px;
 					background-color: #000000;
 				}
@@ -85,7 +85,7 @@
 				.progress_bar {
 					width: 0%;
 					height: 100%;
-					background-image: url("https://cdn.effigy.se/bubber/bubbermoff_prog_900px.gif");
+					background-image: url("https://cdn.discordapp.com/attachments/720096944948641842/1389156631605936179/ezgif-4b2cb1ba7d4af4.gif?ex=6863986e&is=686246ee&hm=85f0d9d864c105ce626c8340dbdbb750074a3df933616f73a55a0d7e269cc2ee&");
 					background-position: center right;
 					background-color: #000000;
 				}
@@ -112,7 +112,7 @@
 					border: 2px solid white;
 					border-radius: 4px;
 					box-shadow: 2px 2px #333, inset 1px 1px #333;
-					background: linear-gradient(to bottom, rgba(0, 179, 107, 0.4), rgba(0, 56, 34, 0.4));
+					background: linear-gradient(to bottom, rgba(79, 234, 228, 0.4), rgba(34, 102, 100, 0.4));
 					padding: 1em;
 				}
 
