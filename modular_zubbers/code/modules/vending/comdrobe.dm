@@ -47,7 +47,6 @@
 
 	access_lists["[ACCESS_CENT_GENERAL]"] += list(
 		/obj/item/clothing/head/hats/warden/drill/nanotrasen = 1,
-		/obj/item/clothing/under/rank/nanotrasen_consultant/stripper = 1,
 		/obj/item/clothing/under/nt_idol_skirt = 1,
 		/obj/item/clothing/head/nanotrasen_consultant/hubert = 1,
 		/obj/item/clothing/suit/armor/vest/nanotrasen_consultant/hubert = 1,
@@ -58,7 +57,6 @@
 	)
 
 	access_lists["[ACCESS_COMMAND]"] += list(
-		/obj/item/clothing/under/rank/civilian/head_of_personnel/stripper = 5, //Multiple for heads. Urgh.
 		/obj/item/clothing/suit/armor/skyy = 2,
 	)
 
