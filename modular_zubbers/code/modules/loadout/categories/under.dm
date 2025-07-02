@@ -4,16 +4,6 @@
 	donator_only = TRUE
 	restricted_roles = list(ALL_JOBS_SEC, JOB_BLUESHIELD)
 
-/datum/loadout_item/uniform/command/stripper //Sprites by SierraGenevese
-	name = "Command Stripper Uniform"
-	item_path = /obj/item/clothing/under/rank/civilian/head_of_personnel/stripper
-	restricted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_CHIEF_ENGINEER, JOB_CHIEF_MEDICAL_OFFICER, JOB_QUARTERMASTER, JOB_NT_REP)
-
-/datum/loadout_item/uniform/nanotrasen_consultant/stripper //Sprites by SierraGenevese
-	name = "consultant stripper uniform"
-	item_path = /obj/item/clothing/under/rank/nanotrasen_consultant/stripper
-	restricted_roles = list(JOB_NT_REP)
-
 /datum/loadout_item/uniform/medrscrubs
 	name = "Security Medic's Scrubs"
 	item_path = /obj/item/clothing/under/rank/medical/scrubs/skyrat/red/sec
@@ -121,10 +111,6 @@
 	name = "Pirate Outfit"
 	item_path = /obj/item/clothing/under/costume/pirate
 
-/datum/loadout_item/uniform/miscellaneous/bunny_suit
-	name = "Bunny Suit"
-	item_path = /obj/item/clothing/under/costume/bunnylewd
-
 /datum/loadout_item/uniform/miscellaneous/centcom_officer_replica
 	name = "CentCom turtleneck replica"
 	item_path = /obj/item/clothing/under/rank/centcom/officer/replica
@@ -132,19 +118,3 @@
 /datum/loadout_item/uniform/miscellaneous/centcom_officer_skirt_replica
 	name = "CentCom skirtleneck replica"
 	item_path = /obj/item/clothing/under/rank/centcom/officer_skirt/replica
-
-/datum/loadout_item/uniform/miscellaneous/latex_catsuit
-	name = "Latex Catsuit"
-	item_path = /obj/item/clothing/under/misc/latex_catsuit
-
-/datum/loadout_item/uniform/miscellaneous/latex_halfcatsuit
-	name = "Latex Half-Catsuit"
-	item_path = /obj/item/clothing/under/misc/latex_halfcatsuit
-
-/datum/loadout_item/uniform/miscellaneous/custom_bunnysuit
-	name = "Custom Bunnysuit"
-	item_path = /obj/item/clothing/under/costume/playbunny/custom_playbunny
-
-/datum/loadout_item/uniform/miscellaneous/nurse
-	name = "Nurse's suit"
-	item_path = /obj/item/clothing/under/rank/medical/doctor/nurse

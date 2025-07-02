@@ -51,15 +51,12 @@ export const ExaminePanel = () => {
     obscured,
     assigned_map,
     flavor_text,
-    flavor_text_nsfw,
     ooc_notes,
     custom_species,
     custom_species_lore,
     character_ad,
     headshot,
-    headshot_nsfw,
     art_ref,
-    art_ref_nsfw,
   } = data;
 
   const handlePageChange = (page, newPage) => {
@@ -164,7 +161,7 @@ export const ExaminePanel = () => {
                     >
                       <Section
                         fitted
-                        title={'NSFW (Warning)'}
+                        title={'DONT CLICK'}
                         style={{ textAlign: 'center' }}
                       />
                     </Tabs.Tab>

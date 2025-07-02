@@ -407,11 +407,7 @@ export function PreferenceList(props: PreferenceListProps) {
             const randomSetting = randomizations[featureId];
 
             if (feature === undefined) {
-              return (
-                <Stack.Item key={featureId}>
-                  <b>Feature {featureId} is not recognized.</b>
-                </Stack.Item>
-              );
+              return;
             }
 
             return (

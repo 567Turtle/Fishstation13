@@ -65,10 +65,7 @@
 	new /obj/item/clothing/neck/cloak/hop(src)
 	new /obj/item/clothing/shoes/laceup(src)
 //Duplication from Commdrobe
-	new /obj/item/clothing/head/playbunnyears/hop(src)
-	new /obj/item/clothing/under/rank/civilian/hop_bunnysuit(src)
 	new /obj/item/clothing/suit/armor/hop_tailcoat(src)
-	new /obj/item/clothing/neck/tie/bunnytie/hop(src)
 	new /obj/item/clothing/head/hopcap/beret(src)
 	new /obj/item/clothing/head/hopcap/beret/alt(src)
 	new /obj/item/clothing/head/hats/imperial/hop(src)
@@ -116,8 +113,6 @@
 	new	/obj/item/clothing/suit/armor/hos/elofy(src)
 	new	/obj/item/clothing/gloves/elofy(src)
 	new	/obj/item/clothing/shoes/jackboots/elofy(src)
-	new	/obj/item/clothing/head/playbunnyears/hos(src)
-	new	/obj/item/clothing/under/rank/security/head_of_security/bunnysuit(src)
 	new	/obj/item/clothing/suit/armor/hos_tailcoat(src)
 	new /obj/item/clothing/head/hats/hos/beret/navyhos(src)
 	new /obj/item/clothing/head/hats/imperial/hos(src)
@@ -161,10 +156,7 @@
 	new /obj/item/clothing/neck/mantle/rdmantle(src)
 	new /obj/item/clothing/suit/toggle/labcoat(src)
 	new /obj/item/clothing/suit/toggle/labcoat/research_director(src)
-	new	/obj/item/clothing/head/playbunnyears/rd(src)
-	new /obj/item/clothing/under/rank/rnd/research_director/bunnysuit(src)
 	new /obj/item/clothing/suit/jacket/research_director/tailcoat(src)
-	new /obj/item/clothing/neck/tie/bunnytie/rd(src)
 
 
 /obj/item/storage/bag/garment/chief_medical/PopulateContents()
@@ -185,10 +177,7 @@
 	new /obj/item/clothing/head/hats/imperial/cmo(src)
 	new /obj/item/clothing/under/rank/medical/chief_medical_officer/skyrat/imperial(src)
 	new /obj/item/clothing/neck/mantle/cmomantle(src)
-	new /obj/item/clothing/head/playbunnyears/cmo(src)
-	new /obj/item/clothing/under/rank/medical/cmo_bunnysuit(src)
 	new /obj/item/clothing/suit/toggle/labcoat/doctor_tailcoat/cmo(src)
-	new /obj/item/clothing/neck/tie/bunnytie/cmo(src)
 
 /obj/item/storage/bag/garment/engineering_chief/PopulateContents()
 	new /obj/item/clothing/under/rank/engineering/chief_engineer(src)
@@ -207,10 +196,7 @@
 	new /obj/item/clothing/head/hats/imperial/ce(src)
 	new /obj/item/clothing/under/rank/engineering/chief_engineer/skyrat/imperial(src)
 	new /obj/item/clothing/neck/mantle/cemantle(src)
-	new /obj/item/clothing/head/playbunnyears/ce(src)
-	new /obj/item/clothing/under/rank/engineering/chief_engineer/bunnysuit(src)
 	new /obj/item/clothing/suit/utility/fire/ce_tailcoat(src)
-	new /obj/item/clothing/neck/tie/bunnytie/ce(src)
 
 /obj/item/storage/bag/garment/quartermaster/PopulateContents()
 	new /obj/item/clothing/under/rank/cargo/qm(src)
@@ -235,8 +221,5 @@
 	new /obj/item/clothing/suit/toggle/jacket/supply/head(src)
 	new /obj/item/clothing/under/rank/cargo/qm/skyrat/formal(src)
 	new /obj/item/clothing/under/rank/cargo/qm/skyrat/formal/skirt(src)
-	new /obj/item/clothing/head/playbunnyears/quartermaster(src)
-	new /obj/item/clothing/under/rank/cargo/quartermaster_bunnysuit(src)
 	new /obj/item/clothing/suit/jacket/tailcoat/quartermaster(src)
-	new /obj/item/clothing/neck/tie/bunnytie/cargo(src)
 
