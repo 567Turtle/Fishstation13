@@ -32,12 +32,11 @@ ADMIN_VERB_ONLY_CONTEXT_MENU(show_player_panel, R_ADMIN, "Show Player Panel", mo
 		// SKYRAT EDIT ADDITION START - Player Ranks
 		var/list/player_ranks = list()
 
-		if(SSplayer_ranks.is_donator(player.client, admin_bypass = FALSE))
-			player_ranks += "Donator"
+		player_ranks += "Donator"
 
 		if(SSplayer_ranks.is_mentor(player.client, admin_bypass = FALSE))
 			player_ranks += "Mentor"
-		//BUBBER ADDITION START
+
 		if(SSplayer_ranks.is_vetted(player.client, admin_bypass = FALSE))
 			player_ranks |= "Vetted"
 		// BUBBER ADDITION END
