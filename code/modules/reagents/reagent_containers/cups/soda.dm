@@ -15,6 +15,7 @@
 	spillable = FALSE
 	custom_price = PAYCHECK_CREW * 0.9
 	obj_flags = CAN_BE_HIT
+	var/no_pop = FALSE
 	possible_transfer_amounts = list(5, 10, 15, 25, 30)
 	volume = 30
 	throwforce = 12 // set to 0 upon being opened. Have you ever been domed by a soda can? Those things fucking hurt
@@ -94,9 +95,12 @@
 		burst_soda(user)
 		return
 
-	to_chat(user, "You pull back the tab of [src] with a satisfying pop.") //Ahhhhhhhh
+	if(no_pop == TRUE)
+		to_chat(user, "You open the cork of the [src] and prepare for the worst.")
+	else
+		to_chat(user, "You pull back the tab of [src] with a satisfying pop.") //Ahhhhhhhh
+		playsound(src, SFX_CAN_OPEN, 50, TRUE)
 	reagents.flags |= OPENCONTAINER
-	playsound(src, SFX_CAN_OPEN, 50, TRUE)
 	spillable = TRUE
 	throwforce = 0
 
@@ -178,6 +182,7 @@
 /obj/item/reagent_containers/cup/soda_cans/mild_bobby
 	name = "Mild Bobby Sauce"
 	desc = "For the not so daring."
+	no_pop = TRUE
 	icon_state = "mild_bobby"
 	list_reagents = list(/datum/reagent/consumable/watermelonjuice = 30)
 	drink_type = SUGAR
@@ -185,8 +190,17 @@
 /obj/item/reagent_containers/cup/soda_cans/tangy_bobby
 	name = "Tangy Bobby Sauce"
 	desc = "For the so daring."
+	no_pop = TRUE
 	icon_state = "tangy_bobby"
 	list_reagents = list(/datum/reagent/consumable/liquidgibs = 30)
+	drink_type = SUGAR
+
+/obj/item/reagent_containers/cup/soda_cans/volcano_sauce
+	name = "Volcano Sauce (HOT)"
+	desc = "By the powers of naughtiness, this hot sauce is really REALLY hot."
+	no_pop = TRUE
+	icon_state = "volcano_sauce"
+	list_reagents = list(/datum/reagent/clf3 = 30)
 	drink_type = SUGAR
 
 /obj/item/reagent_containers/cup/soda_cans/tonic
