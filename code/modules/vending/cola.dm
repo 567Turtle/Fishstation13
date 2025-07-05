@@ -11,6 +11,8 @@
 		/obj/item/reagent_containers/cup/soda_cans/space_mountain_wind = 10,
 		/obj/item/reagent_containers/cup/soda_cans/dr_gibb = 10,
 		/obj/item/reagent_containers/cup/soda_cans/starkist = 10,
+		/obj/item/reagent_containers/cup/soda_cans/mild_bobby = 10,
+		/obj/item/reagent_containers/cup/soda_cans/tangy_bobby = 10,
 		/obj/item/reagent_containers/cup/soda_cans/space_up = 10,
 		/obj/item/reagent_containers/cup/soda_cans/pwr_game = 10,
 		/obj/item/reagent_containers/cup/soda_cans/lemon_lime = 10,
@@ -139,6 +141,8 @@
 		/obj/item/reagent_containers/cup/soda_cans/lemon_lime = 10,
 		/obj/item/reagent_containers/cup/soda_cans/sol_dry = 10,
 		/obj/item/reagent_containers/cup/soda_cans/shamblers = 10,
+		/obj/item/reagent_containers/cup/soda_cans/mild_bobby = 6,
+		/obj/item/reagent_containers/cup/soda_cans/tangy_bobby = 6,
 		/obj/item/reagent_containers/cup/soda_cans/wellcheers = 5,
 		)
 	product_slogans = "~Shake me up some of that Shambler's Juice!~"

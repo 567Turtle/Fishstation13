@@ -39,6 +39,8 @@
 				/obj/item/food/cornchips/random = 6,
 				/obj/item/food/sosjerky = 6,
 				/obj/item/reagent_containers/cup/soda_cans/cola = 6,
+				/obj/item/reagent_containers/cup/soda_cans/mild_bobby = 6,
+				/obj/item/reagent_containers/cup/soda_cans/tangy_bobby = 6,
 				/obj/item/reagent_containers/cup/soda_cans/lemon_lime = 6,
 				/obj/item/reagent_containers/cup/soda_cans/starkist = 6,
 				/obj/item/reagent_containers/cup/soda_cans/pwr_game = 6,

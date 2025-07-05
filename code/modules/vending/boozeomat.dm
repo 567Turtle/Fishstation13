@@ -53,6 +53,8 @@
 				/obj/item/reagent_containers/cup/soda_cans/sodawater = 15,
 				/obj/item/reagent_containers/cup/soda_cans/sol_dry = 8,
 				/obj/item/reagent_containers/cup/soda_cans/cola = 8,
+				/obj/item/reagent_containers/cup/soda_cans/mild_bobby = 6,
+				/obj/item/reagent_containers/cup/soda_cans/tangy_bobby = 6,
 				/obj/item/reagent_containers/cup/soda_cans/tonic = 8,
 				/obj/item/reagent_containers/cup/glass/bottle/hakka_mate = 5,
 				/obj/item/reagent_containers/cup/soda_cans/melon_soda = 5,

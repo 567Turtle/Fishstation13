@@ -175,6 +175,20 @@
 	list_reagents = list(/datum/reagent/consumable/space_cola = 30)
 	drink_type = SUGAR
 
+/obj/item/reagent_containers/cup/soda_cans/mild_bobby
+	name = "Mild Bobby Sauce"
+	desc = "For the not so daring."
+	icon_state = "mild_bobby"
+	list_reagents = list(/datum/reagent/consumable/watermelonjuice = 30)
+	drink_type = SUGAR
+
+/obj/item/reagent_containers/cup/soda_cans/tangy_bobby
+	name = "Tangy Bobby Sauce"
+	desc = "For the so daring."
+	icon_state = "tangy_bobby"
+	list_reagents = list(/datum/reagent/consumable/liquidgibs = 30)
+	drink_type = SUGAR
+
 /obj/item/reagent_containers/cup/soda_cans/tonic
 	name = "T-Borg's tonic water"
 	desc = "Quinine tastes funny, but at least it'll keep that Space Malaria away."

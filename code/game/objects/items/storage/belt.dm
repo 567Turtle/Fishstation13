@@ -402,6 +402,8 @@
 			/obj/item/reagent_containers/cup/glass/drinkingglass/filled/nuka_cola,
 			/obj/item/reagent_containers/cup/glass/dry_ramen,
 			/obj/item/reagent_containers/cup/soda_cans/cola,
+			/obj/item/reagent_containers/cup/soda_cans/mild_bobby,
+			/obj/item/reagent_containers/cup/soda_cans/tangy_bobby,
 			/obj/item/reagent_containers/cup/soda_cans/dr_gibb,
 			/obj/item/reagent_containers/cup/soda_cans/lemon_lime,
 			/obj/item/reagent_containers/cup/soda_cans/pwr_game,
