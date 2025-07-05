@@ -106,7 +106,6 @@ GLOBAL_LIST_EMPTY(startup_messages)
 				<a class="menu_button" href='byond://?src=[text_ref(src)];late_join=1'>JOIN GAME</a>
 				<a class="menu_button" href='byond://?src=[text_ref(src)];view_manifest=1'>CREW MANIFEST</a>
 			"}
-			dat += {"<a class="menu_button" href='byond://?src=[text_ref(src)];character_directory=1'>CHARACTER DIRECTORY</a>"}
 
 		dat += {"<a class="menu_button" href='byond://?src=[text_ref(src)];observe=1'>OBSERVE</a>"}
 
